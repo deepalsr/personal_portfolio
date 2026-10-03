@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Dipal Kumar Shrestha | AI, Blockchain &amp; Full-Stack Engineer</title>
-<meta name="description" content="Portfolio of Dipal Kumar Shrestha, a final-year Computer Engineering student in Lalitpur, Nepal, building machine-learning pipelines, blockchain systems and production web apps.">
+<meta name="description" content="Portfolio of Dipal Kumar Shrestha, a final-year Computer Engineering student in Lalitpur, Nepal, building machine-learning pipelines, RAG systems, blockchain apps and production web apps.">
 <meta name="theme-color" content="#08090D">
 <meta name="color-scheme" content="dark">
 <meta property="og:title" content="Dipal Kumar Shrestha | AI, Blockchain &amp; Full-Stack Engineer">
-<meta property="og:description" content="Machine learning, blockchain and full-stack projects, from antimicrobial drug discovery to a production restaurant system.">
+<meta property="og:description" content="Machine learning, blockchain and full-stack projects, from antimicrobial drug discovery to RAG assistants and self-healing documentation.">
 <meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2308090D'/%3E%3Crect x='1' y='1' width='30' height='30' rx='5' fill='none' stroke='%2300F0FF' stroke-opacity='.5'/%3E%3Ctext x='16' y='20.5' font-family='monospace' font-size='12' font-weight='700' text-anchor='middle' fill='%2300F0FF'%3EDKS%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -108,56 +108,11 @@
 
       <div class="projects">
 
-        <!-- Timur RMS -->
-        <article class="card wide s7">
-          <div class="media tone-cyan">
-            <span class="badge caps" style="--c:var(--cyan)"><span class="pip"></span>Production</span>
-            <span class="idx tel">[01] // CASE_STUDY</span>
-            <svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid meet" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true" focusable="false">
-              <g id="ticket">
-                <rect x="30" y="30" width="72" height="116" rx="3" opacity=".7"/>
-                <path d="M30 52h72" opacity=".7"/>
-                <path d="M40 66h36M40 78h50M40 90h30M40 102h44M40 114h22" opacity=".45"/>
-                <rect x="40" y="122" width="10" height="10" rx="1" opacity=".7"/>
-                <path d="M30 146l6 6 6-6 6 6 6-6 6 6 6-6 6 6 6-6 6 6 6-6 6 6" opacity=".7"/>
-              </g>
-              <use href="#ticket" x="94"/>
-              <use href="#ticket" x="188"/>
-              <rect x="218" y="30" width="72" height="116" rx="3" fill="currentColor" fill-opacity=".1" stroke="none"/>
-              <path d="M226 138l5 5 9-10" stroke-width="1.5"/>
-            </svg>
-          </div>
-          <div class="card-body">
-            <div>
-              <h3>Timur RMS</h3>
-              <p class="sub caps">Restaurant management system</p>
-            </div>
-            <p class="desc">A custom Odoo ordering and management system for Timur Indian and Nepalese Cuisine, built during my internship at The AI Foundry. It covers the public ordering menu, kitchen display, thermal receipt printing and table reservations.</p>
-            <dl class="facts">
-              <div><dt class="caps">Menu</dt><dd>19 categories</dd></div>
-              <div><dt class="caps">Deploy</dt><dd>Docker on a VPS</dd></div>
-              <div><dt class="caps">Print</dt><dd>Node.js + Epson</dd></div>
-            </dl>
-            <div class="tags">
-              <span class="badge caps">Python</span><span class="badge caps">Odoo</span><span class="badge caps">XML</span><span class="badge caps">JavaScript</span><span class="badge caps">PostgreSQL</span><span class="badge caps hl">Live client</span>
-            </div>
-            <details class="more">
-              <summary><svg class="i chev" style="width:12px;height:12px"><use href="#i-chev"/></svg><span class="t-open">Open breakdown</span><span class="t-close">Close breakdown</span></summary>
-              <ul>
-                <li>Public ordering site with cart, dietary-flag filtering and checkout on Odoo's website_sale and accounting modules, plus a sticky category strip and protein-variant grouping with live price and dietary badges.</li>
-                <li>Kitchen Display System redesign, mobile CSS/UX fixes, counter receipt formatting, and a local Node.js print agent for an Epson thermal printer.</li>
-                <li>Fixed production issues (redirect loops, delivery-type state leaks, corrupted checkout data) and enforced business-hours rules across checkout and reservations.</li>
-                <li>Shipped through a local, GitHub, SSH and Docker VPS workflow, with versioned data migrations for safe upgrades.</li>
-              </ul>
-            </details>
-          </div>
-        </article>
-
         <!-- Himalayan Herbal AI -->
-        <article class="card s5">
+        <article class="card wide s7">
           <div class="media tone-green">
             <span class="badge caps" style="--c:var(--green)"><span class="pip"></span>Live demo</span>
-            <span class="idx tel">[02] // RESEARCH</span>
+            <span class="idx tel">[01] // RESEARCH</span>
             <svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid meet" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true" focusable="false">
               <path d="M139.4 107 110 124 80.6 107V73L110 56l29.4 17z" opacity=".8"/>
               <circle cx="110" cy="90" r="18" stroke-dasharray="2 4" opacity=".6"/>
@@ -193,11 +148,98 @@
           </div>
         </article>
 
+        <!-- Self-Healing Docs -->
+        <article class="card s5">
+          <div class="media tone-cyan">
+            <span class="badge caps" style="--c:var(--cyan)"><span class="pip"></span>Prototype</span>
+            <span class="idx tel">[02] // DOCS_AUTOMATION</span>
+            <svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid meet" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true" focusable="false">
+              <rect x="24" y="36" width="82" height="108" rx="4" opacity=".75"/>
+              <path d="M34 54h40M34 68h54M34 82h30" opacity=".45"/>
+              <path d="M34 98h58" stroke-width="6" opacity=".55"/>
+              <path d="M34 114h44" stroke-width="6" opacity=".3"/>
+              <path d="M118 90h30M142 84l6 6-6 6" opacity=".8"/>
+              <circle cx="176" cy="90" r="22" opacity=".7"/>
+              <path d="M165 91l8 8 14-16" stroke-width="1.5"/>
+              <path d="M204 90h18M216 84l6 6-6 6" opacity=".8"/>
+              <rect x="232" y="36" width="64" height="108" rx="4" opacity=".75"/>
+              <path d="M242 54h44M242 68h32" opacity=".45"/>
+              <rect x="242" y="84" width="44" height="26" rx="2" fill="currentColor" fill-opacity=".18" stroke="none"/>
+              <path d="M242 124h36" opacity=".45"/>
+            </svg>
+          </div>
+          <div class="card-body">
+            <div>
+              <h3>Self-Healing Docs</h3>
+              <p class="sub caps">Push-to-PR documentation pipeline</p>
+            </div>
+            <p class="desc">Watches a repo's pushes, finds exactly which functions changed, and opens a pull request that updates the docs describing them. Every patch passes three guardrail layers, and anything unsafe is escalated to a human instead of guessed at.</p>
+            <dl class="facts">
+              <div><dt class="caps">Diffing</dt><dd>tree-sitter AST</dd></div>
+              <div><dt class="caps">Guardrails</dt><dd>3 layers</dd></div>
+              <div><dt class="caps">Tests</dt><dd>43 + CI</dd></div>
+            </dl>
+            <div class="tags">
+              <span class="badge caps">Python</span><span class="badge caps">FastAPI</span><span class="badge caps">Pinecone</span><span class="badge caps">Gemini</span><span class="badge caps">Docker</span><span class="badge caps">GitHub Actions</span>
+            </div>
+            <details class="more">
+              <summary><svg class="i chev" style="width:12px;height:12px"><use href="#i-chev"/></svg><span class="t-open">Open breakdown</span><span class="t-close">Close breakdown</span></summary>
+              <ul>
+                <li>Verified GitHub push webhooks with HMAC-SHA256 and constant-time comparison, then processed each job in the background so GitHub never times out.</li>
+                <li>Function-level diffing with tree-sitter classifies each change as signature, body-only or both, then embeds one chunk per function with Gemini into a per-repo Pinecone namespace.</li>
+                <li>An LLM proposes a structured patch that must pass two deterministic checks (verbatim match, scope) and an LLM-as-judge, with two bounded retries before escalating to a draft PR.</li>
+                <li>Re-verifies each patch against the live file before applying, and ships containerized with a 43-test suite running in CI on every push.</li>
+              </ul>
+            </details>
+          </div>
+        </article>
+
+        <!-- AI RAG Assistant -->
+        <article class="card s4">
+          <div class="media tone-green">
+            <span class="badge caps" style="--c:var(--green)"><span class="pip"></span>Experimental</span>
+            <span class="idx tel">[03] // RAG</span>
+            <svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid meet" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true" focusable="false">
+              <rect x="20" y="40" width="56" height="26" rx="3" opacity=".7"/><rect x="20" y="76" width="56" height="26" rx="3" opacity=".7"/><rect x="20" y="112" width="56" height="26" rx="3" opacity=".7"/>
+              <path d="M30 53h28M30 89h36M30 125h22" opacity=".45"/>
+              <path d="M84 53l40 30M84 89h40M84 125l40-30" opacity=".5"/>
+              <circle cx="150" cy="60" r="4" fill="currentColor" fill-opacity=".4"/><circle cx="168" cy="100" r="4" fill="currentColor"/><circle cx="140" cy="116" r="4" fill="currentColor" fill-opacity=".4"/><circle cx="176" cy="74" r="4" fill="currentColor"/>
+              <circle cx="172" cy="87" r="24" stroke-dasharray="2 4" opacity=".6"/>
+              <path d="M206 87h22M222 81l6 6-6 6" opacity=".8"/>
+              <rect x="238" y="62" width="62" height="50" rx="6" opacity=".75"/>
+              <path d="M248 78h40M248 90h28M248 102h34" opacity=".5"/>
+            </svg>
+          </div>
+          <div class="card-body">
+            <div>
+              <h3>AI RAG Assistant</h3>
+              <p class="sub caps">Grounded handbook Q&amp;A</p>
+            </div>
+            <p class="desc">A retrieval-augmented assistant that answers only from a company handbook. It adds a semantic cache, hallucination guardrails and an LLM gateway with fallback and per-call cost tracking.</p>
+            <dl class="facts">
+              <div><dt class="caps">Vector DB</dt><dd>Chroma</dd></div>
+              <div><dt class="caps">Eval score</dt><dd>5/6 (83%)</dd></div>
+            </dl>
+            <div class="tags">
+              <span class="badge caps">Python</span><span class="badge caps">Chroma</span><span class="badge caps">Groq</span><span class="badge caps">Sentence-Transformers</span>
+            </div>
+            <details class="more">
+              <summary><svg class="i chev" style="width:12px;height:12px"><use href="#i-chev"/></svg><span class="t-open">Open breakdown</span><span class="t-close">Close breakdown</span></summary>
+              <ul>
+                <li>Sentence-aware chunking with all-MiniLM-L6-v2 embeddings, and a semantic cache that matches on both similarity and chunk overlap.</li>
+                <li>Rule-based plus LLM-as-judge groundedness checks, and a gateway with rate limiting, ordered model fallback and dollar-cost tracking.</li>
+                <li>Sliding-window conversation memory and agentic tool-calling for date and business-day questions the documents cannot answer.</li>
+                <li>A hand-written eval set run against the live pipeline caught a regression that manual testing missed.</li>
+              </ul>
+            </details>
+          </div>
+        </article>
+
         <!-- SahajPay -->
         <article class="card s4">
           <div class="media tone-violet">
             <span class="badge caps" style="--c:var(--violet)"><span class="pip"></span>Prototype</span>
-            <span class="idx tel">[03] // WEB3</span>
+            <span class="idx tel">[04] // WEB3</span>
             <svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid meet" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true" focusable="false">
               <rect x="48" y="38" width="50" height="92" rx="7" opacity=".8"/><rect x="222" y="38" width="50" height="92" rx="7" opacity=".8"/>
               <path d="M60 54h26M60 66h18M234 54h26M234 66h18" opacity=".45"/>
@@ -236,7 +278,7 @@
         <article class="card s4">
           <div class="media tone-violet">
             <span class="badge caps" style="--c:var(--violet)"><span class="pip"></span>Experimental</span>
-            <span class="idx tel">[04] // TOOLING</span>
+            <span class="idx tel">[05] // TOOLING</span>
             <svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid meet" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true" focusable="false">
               <rect x="20" y="40" width="88" height="26" rx="6" opacity=".8"/><rect x="20" y="76" width="64" height="26" rx="6" opacity=".8"/>
               <path d="M30 53h50M30 89h32" opacity=".45"/>
@@ -275,7 +317,7 @@
         <article class="card s4">
           <div class="media tone-cyan">
             <span class="badge caps" style="--c:var(--cyan)"><span class="pip"></span>Internal tool</span>
-            <span class="idx tel">[05] // ODOO 19</span>
+            <span class="idx tel">[06] // ODOO 19</span>
             <svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid meet" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true" focusable="false">
               <path d="M138.1 112 100 134l-38.1-22V68L100 46l38.1 22z" opacity=".8"/>
               <path d="M126 105 100 120l-26-15V75l26-15 26 15z" opacity=".5"/>
@@ -302,10 +344,10 @@
         </article>
 
         <!-- DDNS -->
-        <article class="card s6">
+        <article class="card s4">
           <div class="media tone-violet">
             <span class="badge caps" style="--c:var(--violet)"><span class="pip"></span>Experimental</span>
-            <span class="idx tel">[06] // WEB3</span>
+            <span class="idx tel">[07] // WEB3</span>
             <svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid meet" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true" focusable="false">
               <circle cx="160" cy="90" r="78" stroke-dasharray="2 5" opacity=".4"/>
               <path d="M216 90 188 138.5 132 138.5 104 90 132 41.5 188 41.5z" opacity=".45"/>
@@ -340,10 +382,10 @@
         </article>
 
         <!-- Emotion detection -->
-        <article class="card s6">
+        <article class="card s4">
           <div class="media tone-violet">
             <span class="badge caps" style="--c:var(--violet)"><span class="pip"></span>Research</span>
-            <span class="idx tel">[07] // ML</span>
+            <span class="idx tel">[08] // ML</span>
             <svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid meet" fill="none" stroke="currentColor" stroke-width="1" aria-hidden="true" focusable="false">
               <path d="M20 84H300" stroke-dasharray="2 4" opacity=".4"/>
               <path d="M20 84C46 34 74 34 100 84S154 134 180 84 234 34 260 84 290 114 300 96" stroke-width="1.5" opacity=".85"/>
@@ -411,7 +453,7 @@
             </div>
             <div class="panel metric">
               <span class="caps c-2">Projects</span>
-              <span class="n c-violet">7</span>
+              <span class="n c-violet">8</span>
               <span class="tel sub">AI, Web3, full-stack</span>
             </div>
           </div>
@@ -478,7 +520,7 @@
           <div class="log-body">
             <h3>Software Engineering Intern, The AI Foundry</h3>
             <ul>
-              <li>Developed and maintained the production restaurant system for Timur Indian and Nepalese Cuisine, and set up the workflow that ships it to a live server.</li>
+              <li>Built an RMS (restaurant management system) for a restaurant, and set up the workflow that ships it to a live server.</li>
               <li>Built Office Quest, an internal Odoo 19 gamification addon.</li>
               <li>Worked in Agile sprints with code reviews, sprint planning, Git-based version control and technical documentation.</li>
             </ul>

@@ -38,7 +38,7 @@ the whole accent changes.
 **Project links.** The project cards have no outgoing links yet. To add one,
 wrap a card's `<h3>` text in an anchor:
 
-    <h3><a href="https://github.com/deepalsr/your-repo">Timur RMS</a></h3>
+    <h3><a href="https://github.com/deepalsr/your-repo">Himalayan Herbal AI</a></h3>
 
 **Fonts.** Space Grotesk, Inter and JetBrains Mono load from Google Fonts, so
 the page needs a connection to render as designed. It falls back to system
